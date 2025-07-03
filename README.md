@@ -29,11 +29,11 @@ pip install -r requirements.txt
 Uses subprocess to run
 Parses the output to extract:
 
--> SSID: Network name
--> BSSID: MAC address
--> Signal: Wi-Fi strength %
--> Band: Frequency (2.4 / 5 GHz)
--> Encryption: WPA2, Open, etc.
+ SSID: Network name
+ BSSID: MAC address
+ Signal: Wi-Fi strength %
+ Band: Frequency (2.4 / 5 GHz)
+ Encryption: WPA2, Open, etc.
 
 Displays data in a ttk.Treeview table with neat columns and emojis for quick visual cues.
 
